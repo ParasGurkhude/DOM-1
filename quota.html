@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="showQuoteInConsole()">Show Quote in console</button>
+  <p id="quote">Talk is cheap Show me the code</p>
+  <script>
+    function showQuoteInConsole() {
+      var quoteText = document.getElementById('quote').textContent;
+      console.log(quoteText);
+    }
+  </script>
+</body>
+</html>
